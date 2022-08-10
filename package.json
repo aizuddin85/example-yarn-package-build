@@ -21,4 +21,7 @@
   "jest": {
     "testEnvironment": "node"
   }
+  "publisConfig": {
+    "registry": "http://nexus.cicd.svc.cluster.local:8081/nexus/content/repositories/yarn"
+  }
 }
